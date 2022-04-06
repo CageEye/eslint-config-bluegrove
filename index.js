@@ -8,7 +8,6 @@ module.export = {
     'plugin:react-hooks/recommended',
     'prettier',
   ],
-  ignorePatterns: ['*.svg', 'node_modules/*'],
   plugins: ['@typescript-eslint', 'import', 'jsx-a11y', 'prettier'],
   rules: {
     'no-use-before-define': 'off',
@@ -47,21 +46,6 @@ module.export = {
     //temp
     '@typescript-eslint/ban-ts-comment': 'off',
     'no-nested-ternary': 'off',
-  },
-  env: {
-    browser: true,
-    jest: true,
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
-      },
-    },
-  },
-  parserOptions: {
-    project: './tsconfig.eslint.json',
-    ecmaVersion: 'latest',
   },
   overrides: [
     {

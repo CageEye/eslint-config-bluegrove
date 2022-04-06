@@ -1,24 +1,12 @@
 {
   "name": "eslint-config-bluegrove",
   "version": "1.0.3",
+  "license": "MIT",
   "description": "ESLint config for Bluegrove's React projects",
-  "files": [
-    "index.js"
-  ],
-  "main": "index.js",
+  "repository": "CageEye/eslint-config-bluegrove",
   "scripts": {
     "test": "eslint ."
   },
-  "keywords": [
-    "coding-standard",
-    "standards",
-    "eslint",
-    "eslintconfig",
-    "lint",
-    "react",
-    "style"
-  ],
-  "repository": "CageEye/eslint-config-bluegrove",
   "bugs": {
     "url": "https://github.com/CageEye/eslint-config-bluegrove/issues"
   },
@@ -50,5 +38,13 @@
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2"
   },
-  "license": "MIT"
+  "keywords": [
+    "coding-standard",
+    "standards",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "react",
+    "style"
+  ]
 }
