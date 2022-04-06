@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-bluegrove",
+  "version": "2.0.2",
+  "description": "ESLint config for Bluegrove's React projects",
+  "files": [
+    "index.js",
+    "react.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "coding-standard",
+    "standards",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "react",
+    "style"
+  ],
+  "repository": "CageEye/eslint-config-bluegrove",
+  "bugs": {
+    "url": "https://github.com/CageEye/eslint-config-bluegrove/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.5.1"
+  },
+  "license": "MIT"
+}
