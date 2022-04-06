@@ -1,10 +1,9 @@
 {
   "name": "eslint-config-bluegrove",
-  "version": "2.0.2",
+  "version": "1.0.0",
   "description": "ESLint config for Bluegrove's React projects",
   "files": [
-    "index.js",
-    "react.js"
+    "index.js"
   ],
   "main": "index.js",
   "scripts": {
