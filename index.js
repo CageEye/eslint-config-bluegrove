@@ -25,6 +25,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/quotes': 'off',
     'no-underscore-dangle': 'off',
+    'import/no-relative-packages': 'off',
     'react/function-component-definition': 'off',
     'jsx-a11y/label-has-associated-control': [
       2,
