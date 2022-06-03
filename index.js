@@ -45,6 +45,7 @@ module.exports = {
     ],
     'no-param-reassign': 'off',
     'react/no-array-index-key': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
     'no-nested-ternary': 'off',
   },
   overrides: [
