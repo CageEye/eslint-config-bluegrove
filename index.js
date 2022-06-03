@@ -27,7 +27,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'import/no-relative-packages': 'off',
     'react/function-component-definition': 'off',
-    "react/react-in-jsx-scope": "off",
+    'react/react-in-jsx-scope': 'off',
     'jsx-a11y/label-has-associated-control': [
       2,
       {
@@ -45,8 +45,6 @@ module.exports = {
     ],
     'no-param-reassign': 'off',
     'react/no-array-index-key': 'off',
-    //temp
-    '@typescript-eslint/ban-ts-comment': 'off',
     'no-nested-ternary': 'off',
   },
   overrides: [
