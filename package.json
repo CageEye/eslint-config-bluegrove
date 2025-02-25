@@ -1,43 +1,15 @@
 {
   "name": "eslint-config-bluegrove",
-  "version": "1.0.10",
+  "version": "2.0.0",
   "license": "MIT",
-  "description": "ESLint config for Bluegrove's React projects",
+  "description": "ESLint config for Bluegrove's React and TypeScript projects",
+  "deprecated": "Deprecated in favor of eslint-config-cageeye",
   "repository": "CageEye/eslint-config-bluegrove",
   "scripts": {
     "test": "eslint ."
   },
   "bugs": {
     "url": "https://github.com/CageEye/eslint-config-bluegrove/issues"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.10.2",
-    "@typescript-eslint/parser": "^5.10.2",
-    "eslint": "^8.10.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.5.1",
-    "prettier-config-cageeye": "^1.0.1"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.10.2",
-    "@typescript-eslint/parser": "^5.10.2",
-    "eslint": "^8.10.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.5.1"
   },
   "keywords": [
     "coding-standard",
@@ -46,6 +18,16 @@
     "eslintconfig",
     "lint",
     "react",
+    "typescript",
     "style"
-  ]
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
 }

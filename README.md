@@ -1,4 +1,4 @@
-# eslint-config-bluegrove 
+# DEPRECATED IN FAVOR OF eslint-config-cageeye
 
 [ESLint](http://eslint.org/) config for @Bluegrove
 
